@@ -6,8 +6,8 @@ documentation = "https://docs.rs/mlk25z4"
 keywords = ["arm", "cortex-m", "nxp", "kinetis", "svd2rust"]
 license = "MIT OR Apache-2.0"
 name = "mkl25z4"
-repository = "https://github.com/japaric/stm32f30x"
-version = "0.0.1"
+repository = "https://github.com/mgottschlag/mkl25z4"
+version = "0.0.2"
 
 [dependencies]
 bare-metal = "0.2.0"
