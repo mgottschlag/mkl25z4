@@ -2,7 +2,7 @@
 authors = ["Mathias Gottschlag <mgottschlag@gmail.com>", "Jorge Aparicio <jorge@japaric.io>"]
 categories = ["embedded", "hardware-support", "no-std"]
 description = "Peripheral access API for NXP KL25Z microcontrollers"
-documentation = "https://docs.rs/mlk25z4"
+documentation = "https://docs.rs/crate/mkl25z4"
 keywords = ["arm", "cortex-m", "nxp", "kinetis", "svd2rust"]
 license = "MIT OR Apache-2.0"
 name = "mkl25z4"
@@ -11,7 +11,7 @@ version = "0.0.2"
 
 [dependencies]
 bare-metal = "0.2.0"
-cortex-m = "0.5.0"
+cortex-m = "0.6.0"
 vcell = "0.1.0"
 
 [dependencies.cortex-m-rt]
